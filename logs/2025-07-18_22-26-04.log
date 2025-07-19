@@ -1,0 +1,1 @@
+2025-07-18 22:26:18,755 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
