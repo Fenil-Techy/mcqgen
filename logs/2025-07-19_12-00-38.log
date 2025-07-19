@@ -1,0 +1,40 @@
+2025-07-19 12:02:00,936 - asyncio - ERROR - Exception in callback _HandlerDelegate.execute.<locals>.<lambda>() at E:\mcqgen\venv\Lib\site-packages\tornado\web.py:2498
+handle: <Handle _HandlerDelegate.execute.<locals>.<lambda>() at E:\mcqgen\venv\Lib\site-packages\tornado\web.py:2498>
+Traceback (most recent call last):
+  File "E:\mcqgen\venv\Lib\site-packages\streamlit\web\bootstrap.py", line 348, in run
+    if asyncio.get_running_loop().is_running():
+       ~~~~~~~~~~~~~~~~~~~~~~~~^^
+RuntimeError: no running event loop
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python313\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\mcqgen\venv\Lib\site-packages\tornado\web.py", line 2498, in <lambda>
+    fut.add_done_callback(lambda f: f.result())
+                                    ~~~~~~~~^^
+  File "E:\mcqgen\venv\Lib\site-packages\tornado\web.py", line 1796, in _execute
+    async def _execute(
+asyncio.exceptions.CancelledError
+2025-07-19 12:02:00,941 - asyncio - ERROR - Exception in callback _HandlerDelegate.execute.<locals>.<lambda>() at E:\mcqgen\venv\Lib\site-packages\tornado\web.py:2498
+handle: <Handle _HandlerDelegate.execute.<locals>.<lambda>() at E:\mcqgen\venv\Lib\site-packages\tornado\web.py:2498>
+Traceback (most recent call last):
+  File "E:\mcqgen\venv\Lib\site-packages\streamlit\web\bootstrap.py", line 348, in run
+    if asyncio.get_running_loop().is_running():
+       ~~~~~~~~~~~~~~~~~~~~~~~~^^
+RuntimeError: no running event loop
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python313\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\mcqgen\venv\Lib\site-packages\tornado\web.py", line 2498, in <lambda>
+    fut.add_done_callback(lambda f: f.result())
+                                    ~~~~~~~~^^
+  File "E:\mcqgen\venv\Lib\site-packages\tornado\web.py", line 1796, in _execute
+    async def _execute(
+asyncio.exceptions.CancelledError
