@@ -1,5 +1,7 @@
 langchain
+langchain_community
 langchain_ollama
+
 streamlit
 python-dotenv
 PyPDF2
