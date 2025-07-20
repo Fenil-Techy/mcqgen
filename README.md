@@ -57,7 +57,9 @@ cd mcqgen
 ### 2️⃣ Create virtual environment & install dependencies
 
 python -m venv venv
+
 venv\Scripts\activate      # On Windows
+
 source venv/bin/activate   # On Linux/Mac
 
 pip install -r requirements.txt
